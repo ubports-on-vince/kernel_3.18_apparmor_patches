@@ -1,6 +1,8 @@
 # kernel_3.18_apparmor_patches
 Apparmor patches for linux kernel 3.18
 
+### Still has some issues, like broken usb connect
+
 ### Usage:
 
 ```
