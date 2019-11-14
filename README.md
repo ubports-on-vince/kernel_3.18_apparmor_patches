@@ -10,7 +10,7 @@ git am --signoff < 0002-0010_xxxx.patch
 
 Patches from https://kernel.ubuntu.com/git/jj/linux-apparmor-backports/refs/heads and fix build error with https://lists.ubuntu.com/archives/kernel-team/2016-January/068128.html
 
-And you also need add apparmor.d configs: https://github.com/ubports-on-vince/device_xiaomi_vince/tree/dev/ubuntu/apparmor.d
+And you also need add apparmor.d configs: https://github.com/ubports-on-vince/device_xiaomi_vince/tree/master/ubuntu/apparmor.d
 
 Add them to system.img: 
 
