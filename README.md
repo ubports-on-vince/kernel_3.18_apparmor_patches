@@ -4,8 +4,13 @@ Apparmor patches for linux kernel 3.18
 
 ### Usage:
 
+clone this repo to your kernel source
 ```
-git am --signoff < 0002-0010_xxxx.patch
+patches=$(ls kernel_3.18_apparmor_patches|grep patch)
+for patch in $patches;
+do
+  git am --signoff < kernel_3.18_apparmor_patches/$patch
+done
 ```
 
 Patches from https://kernel.ubuntu.com/git/jj/linux-apparmor-backports/refs/heads and fix build error with https://lists.ubuntu.com/archives/kernel-team/2016-January/068128.html
